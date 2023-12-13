@@ -9,7 +9,7 @@ async function output(data) {
 }
 
 async function getSocial() {
-    const res = await fetch('./social.json')
+    const res = await await fetch('./social.json')
     const data = await res.json()
     return data
 }
@@ -20,4 +20,4 @@ async function doSocial() {
 }
 
 doSocial();
-// push again 
+ 
